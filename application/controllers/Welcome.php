@@ -27,6 +27,26 @@ class Welcome extends CI_Controller
         $this->load->view('footerweb');
     }
 
+
+    public function visimisi()
+    {
+        $param["lblformisi"] = "Visi dan Misi";
+        $this->load->view('headerweb');
+        $this->load->view('contentvismis', $param);
+        $this->load->view('footerweb');
+    }
+
+    public function about()
+    {
+        $param["lblformisi"] = "Tentang";
+        $this->load->view('headerweb');
+        $this->load->view('contentabout', $param);
+        $this->load->view('footerweb');
+    }
+
+
+
+
     public function echotest()
     {
         echo base_url();
