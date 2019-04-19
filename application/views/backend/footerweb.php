@@ -44,10 +44,14 @@
 <script src="<?= base_url();?>assets/js/demo/chart-area-demo.js"></script>
 <script src="<?= base_url();?>assets/js/demo/chart-pie-demo.js"></script>
 <script src="//cdn.ckeditor.com/4.11.2/standard/ckeditor.js"></script>
-<script>
-           // Replace the <textarea id="editor1"> with a CKEditor
-           // instance, using default configuration.
-           CKEDITOR.replace( 'editor1' );
+
+      <script>
+
+           CKEDITOR.replace( 'editorMisi' );
+           CKEDITOR.replace( 'editorVisi' );
+           CKEDITOR.replace( 'editorSlogan' );
+
+
        </script>
 
 </body>
